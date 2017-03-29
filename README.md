@@ -4,7 +4,7 @@
 
 adm.js is simple ~1KB JavaScript library that let's you define bits of code (i.e. modules) which are executed when their requirements are resolved, and then can in turn satisfy other dependents.
 
-It's written in TypeScript for convenience.
+It's written in TypeScript for convenience and readability.
 
 ## I want to see some code!
 
