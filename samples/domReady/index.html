@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+  Dom Ready Dependency Sample
+</title>
+<body>
+
+<h1>Dom Ready Dependency Sample</h1>
+
+<script src="../../adm.js"></script>
+<script async src="needsDom.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+    define('dom', [], function() { return document; });
+  });
+</script>
+
+</body>
+</html>
