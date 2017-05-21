@@ -27,7 +27,7 @@ adm.define('mod2', [],
 
 ## Why not just use RequireJS?
 
-adm.js is in design very similar to RequireJS, except it eschews the dynamic loading of modules, and in fact says nothing about how your modules come to be loaded and executed.
+adm.js is in design very similar to RequireJS, except it eschews the dynamic loading of modules, only managing when they get executed.
 
 In fact, if you want to bootstrap your javascript as soon as possible, there are some problems with the way RequireJS loads your js. See: [script-injected-async-scripts-considered-harmful](https://www.igvita.com/2014/05/20/script-injected-async-scripts-considered-harmful/)
 
