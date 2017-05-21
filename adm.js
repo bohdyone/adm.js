@@ -67,7 +67,3 @@ var adm;
         return true;
     }
 })(adm || (adm = {}));
-var define = function (modName, requirements, constructor) {
-    adm.define(modName, requirements, constructor);
-};
-define.amd = true;

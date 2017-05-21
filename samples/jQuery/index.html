@@ -9,6 +9,11 @@
 <h1>JQuery Async Sample</h1>
 
 <script src="../../adm.js"></script>
+<script>
+  // AMD compatability
+  define = adm.define;
+  define.amd = true;
+</script>
 <script async src="testJquery.js"></script>
 <script async src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
 

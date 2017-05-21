@@ -1,4 +1,4 @@
-define('needsDom', ['dom'],
+adm.define('needsDom', ['dom'],
 function(dom) {
   console.log("Got the dom!");
 

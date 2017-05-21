@@ -13,13 +13,13 @@
 <script>
   // require must be defined as a requirement
   // Even if using require()s for mod2 instance, mod2 must be defined in the requirements array.
-  define('mod1', ['require', 'mod2'], function(require) {
+  adm.define('mod1', ['require', 'mod2'], function(require) {
     var mod2 = require('mod2');
     window.alert(mod2.message);
   });
 
   // exports must be defined as a dependency
-  define('mod2', ['exports'], function(exports) {
+  adm.define('mod2', ['exports'], function(exports) {
     exports.message = "Require Exports kinda works!";
   });
 </script>

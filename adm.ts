@@ -76,9 +76,11 @@ namespace adm {
     }
 }
 
-// For compatability with existing AMD modules
+// Uncomment for compatability with existing AMD modules
+/*
 var define: any = function(modName: string, requirements: string[], constructor) {
     adm.define(modName, requirements, constructor);
 };
 
 define.amd = true;
+*/

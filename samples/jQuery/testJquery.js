@@ -1,4 +1,4 @@
-define("jqTest", ["jquery"],
+adm.define("jqTest", ["jquery"],
 function(jq) {
   console.log("jqTest!");
   var title = jq(document).find("title").text();
