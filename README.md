@@ -12,9 +12,9 @@ Of course.
 
 ```javascript
 adm.define('mod1', ['mod2'],
-  function(mod1) {
+  function(mod2) {
     console.log("Now me!");
-    console.log("Thanks for " + mod1)
+    console.log("Thanks for " + mod2)
   });
 
 adm.define('mod2', [],
